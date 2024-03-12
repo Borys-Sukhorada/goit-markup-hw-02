@@ -5,29 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <a href="./index.html">WebStudio</a>
+        <a class="header-nav" href="./index.html"
+          ><span class="header-logo-blue">WEB</span>STUDIO</a
+        >
         <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+          <li><a class="header-nav-menu" href="">Studio</a></li>
+          <li><a class="header-nav-menu" href="">Portfolio</a></li>
+          <li><a class="header-nav-menu" href="">Contacts</a></li>
         </ul>
       </nav>
       <address>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href ="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a class="header-contact" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="header-contact" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
-
     <main>
       <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <h1 class="main-s1">Effective Solutions for Your Business</h1>
+        <button class="main-s1-button" type="button">Order Service</button>
       </section>
       <section>
         <h2>Accomplishments</h2>
@@ -66,22 +88,42 @@
         <h2>Our Team</h2>
         <ul>
           <li>
-            <img src="./images/team1.jpg" alt="Mark Guerrero" width="264" height="260" />
+            <img
+              src="./images/team1.jpg"
+              alt="Mark Guerrero"
+              width="264"
+              height="260"
+            />
             <h3>Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
           <li>
-            <img src="./images/team2.jpg" alt="Tom Ford" width="264" height="260" />
+            <img
+              src="./images/team2.jpg"
+              alt="Tom Ford"
+              width="264"
+              height="260"
+            />
             <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
           <li>
-            <img src="./images/team3.jpg" alt="Camila Garcia" width="264" height="260" />
+            <img
+              src="./images/team3.jpg"
+              alt="Camila Garcia"
+              width="264"
+              height="260"
+            />
             <h3>Camila Garcia</h3>
             <p>Marketing</p>
           </li>
           <li>
-            <img src="./images/team4.jpg" alt="Daniel Wilson" width="264" height="260" />
+            <img
+              src="./images/team4.jpg"
+              alt="Daniel Wilson"
+              width="264"
+              height="260"
+            />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
           </li>
@@ -90,36 +132,46 @@
       <section>
         <h2>Our Portfolio</h2>
         <ul>
-            <li>
-                <img src="./images/port1-min.png" alt="Banking App" widht="360" height="300">
-                <h3>Banking App</h3>
-                <p>App</p>
-            </li>
-            <li>
-                <img src="./images/port2-min.png" alt="Cashless Payment" widht="360" height="300">
-                <h3>Cashless Payment</h3>
-                <p>Marketing</p>
-            </li>
-            <li>
-                <img src="./images/port3-min.png" alt="" widht="360" height="300">
-                <h3>Meditation App</h3>
-                <p>App</p>
-            </li>
-            <li>
-                <img src="./images/port4-min.png" alt="" widht="360" height="300">
-                <h3>Taxi Service</h3>
-                <p>Marketing</p>
-            </li>
-            <li>
-                <img src="./images/port5-min.png" alt="" widht="360" height="300">
-                <h3>Taxi Service</h3>
-                <p>Design</p>
-            </li>
-            <li>
-                <img src="./images/port6-min.png" alt="" widht="360" height="300">
-                <h3>Online Courses</h3>
-                <p>Marketing</p>
-            </li>
+          <li>
+            <img
+              src="./images/port1-min.png"
+              alt="Banking App"
+              widht="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/port2-min.png"
+              alt="Cashless Payment"
+              widht="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img src="./images/port3-min.png" alt="" widht="360" height="300" />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img src="./images/port4-min.png" alt="" widht="360" height="300" />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img src="./images/port5-min.png" alt="" widht="360" height="300" />
+            <h3>Taxi Service</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img src="./images/port6-min.png" alt="" widht="360" height="300" />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
         </ul>
       </section>
     </main>
