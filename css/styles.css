@@ -57,7 +57,7 @@ body {
 }
 /*====================================================*/
 .main-first {
-background-color: #2e2f42;
+  background-color: #2e2f42;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -67,21 +67,22 @@ background-color: #2e2f42;
 }
 
 .main-first-button {
-    background-color: #4D5AE5;
+  background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .main-first-button:hover,
 .main-first-button:focus {
-  color: #404BBF;
-  background-color: #404BBF}
+  color: #404bbf;
+  background-color: #404bbf;
+}
 /*====================================================*/
-.second-h3 {
+.second-h {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -96,7 +97,9 @@ background-color: #2e2f42;
   color: #434455;
 }
 /*====================================================*/
-.team-h2 {
+.team-hh {
+  background-color: #f4f4fd;
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -104,7 +107,7 @@ background-color: #2e2f42;
   text-align: center;
   color: #2e2f42;
 }
-.team-h3 {
+.team-hhh {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -113,6 +116,7 @@ background-color: #2e2f42;
   color: #2e2f42;
 }
 .team-p {
+  background-color: #ffffff;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -120,3 +124,4 @@ background-color: #2e2f42;
   text-align: center;
   color: #434455;
 }
+/*====================================================*/
